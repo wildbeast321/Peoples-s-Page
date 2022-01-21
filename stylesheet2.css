@@ -1,0 +1,127 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    margin:0;
+    background-image: url("hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg");
+    background-size: cover;
+    background-position:center ;
+}
+
+.header a,h1 {
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    color:rgb(255, 234, 234);
+    margin: 0px;
+    text-decoration: none;
+    background-image: url("1076376.jpg");
+    background-position:center;
+    background-size: 2000px 500px;
+}
+.navbar{
+    margin-top: 0px;
+    background-color: black;
+    overflow:hidden
+
+}
+.navbar a[href="login page.html"]{
+    background-color: green;
+
+}
+.navbar a{
+    float: left;
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    margin: 0px;
+}
+.navbar a:hover{
+    background-color: blue;
+}
+.navbar a:active{
+    background-color: red;
+}
+a[title="About"]{
+    float:right;    
+}
+.container {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width:20%;
+    margin:auto;
+    flex-direction: column;
+    background-color:rgba(146, 146, 146, 0.61);
+    padding: 15px 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+.container label[for="email"],label[for="password"]{
+    align-self: flex-start;
+}
+.container3{
+   display:flex;
+   flex-direction: row; 
+   margin: 15px 0px;
+   padding: 0px;
+   width:100%;
+  
+}
+.container4{
+    display:flex;
+    flex-direction: row;
+    padding-bottom: 15px;
+    width: 100%;
+
+}
+
+.container2{
+    background-color: white;
+    margin:auto;
+    width:100%;
+    margin-top: 5px;
+    padding:10px;
+    height:100px;
+    overflow: auto;
+}
+.container5{
+    width:100%;
+    padding-right: 10px;
+    
+}
+.container5 button{
+    width:100%;
+}
+
+.container button, input[type="submit"] {
+   
+   align-self: stretch;
+    margin:0px 5px;
+    text-decoration: none;
+    font-size: 16px;
+    height:50px;
+    background-color: rgb(0, 0, 212);
+    color: white;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.container button:hover, input[type="submit"]:hover{
+    cursor: pointer;
+}
+.container button:active,input[type="submit"]:active{
+background-color: rgb(212, 0, 0);
+}
+.container input[type="email"],input[type="password"]{
+    width: 100%;
+    padding:10px;
+    border-radius: 10px;
+}
+.container input:focus{
+    background-color: rgb(99, 99, 99);
+    color: white;
+}
+

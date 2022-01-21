@@ -1,0 +1,87 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    margin:0;
+    background-image: url("hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg");
+    background-size: cover;
+    background-position:center ;
+}
+
+.header a,h1 {
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    color:rgb(255, 234, 234);
+    margin: 0px;
+    text-decoration: none;
+    background-image: url("1076376.jpg");
+    background-position:center;
+    background-size: 2000px 500px;
+}
+.navbar{
+    margin-top: 0px;
+    background-color: black;
+    overflow:hidden;
+    
+}
+.navbar a[href="index.html"]{
+    background-color: green;
+}
+.navbar a{
+    float:left;
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    margin:0px;
+}
+.navbar a:hover{
+    background-color: blue;
+}
+.navbar a:active{
+    background-color: red;
+}
+a[title="About"]{
+    float:right;    
+}
+.img1{
+   float: left;
+}
+.content1{
+   height: 400px;
+   margin: 50px;
+}
+h2,p{
+   margin-left: 50%;
+}
+
+.img2 {
+   float:left;
+}
+.content2
+{
+   height: 400px;
+   margin: 50px;
+}
+.img3{
+    float: left;
+}
+.content3{
+    height: 400px;
+    margin: 50px;
+}
+
+.footer{
+                
+    background-color: black;
+    text-align: center;
+    width:100%;
+   
+
+}
+.footer div{
+    display:inline-block;
+    text-align: center;  
+    background-color: black;
+    vertical-align:middle;
+    color:white;
+    width:150px;
+}
