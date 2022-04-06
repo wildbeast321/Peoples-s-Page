@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/wildbeast321/Peoples-s-Page/issues"
   },
-  "homepage": "https://github.com/wildbeast321/Peoples-s-Page#readme"
+  "homepage": "https://github.com/wildbeast321/Peoples-s-Page#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
 }
